@@ -23,6 +23,7 @@ class Task {
 		this.status = status;
 	}
 
+	//getters for task properties
 	public String getName() {
 		return name;
 	}
@@ -35,10 +36,12 @@ class Task {
 		return status;
 	}
 
+	//allows task status to be updated
 	public void setStatus(String status) {
 		this.status = status;
 	}
 
+	//returns string representation of task
 	@Override
 	public String toString() {
 		return "Task{name='" + name + "', priority=" + priority + ", status='" + status + "'}";
@@ -132,3 +135,6 @@ public class TaskManager {
 		}
 	}
 }
+
+
+//used help of ai and w3schools for hashmap and formatting of code. opted to have all code in one file.
