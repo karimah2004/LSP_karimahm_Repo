@@ -27,7 +27,7 @@ public class ShoppingCart {
 
 	/**
 	 * Removes an item from the shopping cart.
-	 *
+	 * 
 	 * @param itemName the name of the item to remove
 	 * @throws IllegalArgumentException if the item is not found in the cart
 	 */
