@@ -48,7 +48,7 @@ public class ShoppingCartTest {
 	@DisplayName("Test removing existing item")
 	public void testRemoveExistingItem() {
 		cart.addItem("Apple", 1.99);
-		assertDoesNotThrow(() -> cart.removeItem("Apple")); 
+		assertDoesNotThrow(() -> cart.removeItem("Apple"));
 	}
 
 	/**
@@ -122,3 +122,5 @@ public class ShoppingCartTest {
 		assertEquals(0.0, cart.getTotalCost(), 0.01);
 	}
 }
+
+//i opted to merge test for items 0 or less than 0, negative, throwing an exception
