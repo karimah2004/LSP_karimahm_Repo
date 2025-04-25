@@ -22,14 +22,18 @@ public abstract class ReportStructure {
  * Concrete implementation of a sales report.
  */
 class SalesReport extends ReportStructure {
+	
+	//loads sales data
     protected void loadData() {
         System.out.println("Loading sales data...");
     }
 
+    //formats sales data
     protected void formatData() {
         System.out.println("Formatting sales data...");
     }
 
+    //prints formatted sales report
     protected void printReport() {
         System.out.println("Printing sales report.");
     }
@@ -39,14 +43,17 @@ class SalesReport extends ReportStructure {
  * Concrete implementation of an inventory report.
  */
 class InventoryReport extends ReportStructure {
+	//loads inventory specific data
     protected void loadData() {
         System.out.println("Loading inventory data...");
     }
 
+    //formats the inventory data
     protected void formatData() {
         System.out.println("Formatting inventory data...");
     }
 
+    //prints the formatted inventory report
     protected void printReport() {
         System.out.println("Printing inventory report.");
     }
