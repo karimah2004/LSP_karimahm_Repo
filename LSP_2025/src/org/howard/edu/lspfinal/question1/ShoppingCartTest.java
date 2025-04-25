@@ -48,7 +48,7 @@ public class ShoppingCartTest {
 	@DisplayName("Test removing existing item")
 	public void testRemoveExistingItem() {
 		cart.addItem("Apple", 1.99);
-		assertDoesNotThrow(() -> cart.removeItem("Apple"));
+		assertDoesNotThrow(() -> cart.removeItem("Apple")); 
 	}
 
 	/**
